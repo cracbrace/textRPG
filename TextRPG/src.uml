@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>E:/develop/IDEAjava/TextRPG/src</OriginalElement>
+  <nodes>
+    <node x="354.0" y="446.0">com.hdh.txtrpg.entity.ManaPotion</node>
+    <node x="189.0" y="206.0">com.hdh.txtrpg.util.MapConstant</node>
+    <node x="-28.5" y="746.0">com.hdh.txtrpg.entity.Fireball</node>
+    <node x="48.0" y="806.0">com.hdh.txtrpg.entity.DragonBreath</node>
+    <node x="307.0" y="66.0">com.hdh.txtrpg.entity.Location</node>
+    <node x="93.0" y="266.0">com.hdh.txtrpg.engine.BattleEngine</node>
+    <node x="251.0" y="386.0">com.hdh.txtrpg.entity.EnhanceFruit</node>
+    <node x="-97.5" y="626.0">com.hdh.txtrpg.entity.Skill</node>
+    <node x="280.5" y="626.0">com.hdh.txtrpg.map.DefaultMapGenerator</node>
+    <node x="51.0" y="386.0">com.hdh.txtrpg.entity.HealthPotion</node>
+    <node x="224.5" y="126.0">com.hdh.txtrpg.map.MapData</node>
+    <node x="181.0" y="746.0">com.hdh.txtrpg.entity.Heal</node>
+    <node x="157.5" y="66.0">com.hdh.txtrpg.entity.Event</node>
+    <node x="321.0" y="266.0">com.hdh.txtrpg.entity.Item</node>
+    <node x="-27.0" y="566.0">com.hdh.txtrpg.entity.Enemy</node>
+    <node x="-5.0" y="206.0">com.hdh.txtrpg.entity.GameWorld</node>
+    <node x="75.0" y="126.0">com.hdh.txtrpg.map.Coord</node>
+    <node x="146.0" y="446.0">com.hdh.txtrpg.map.MapGenerator</node>
+    <node x="254.0" y="806.0">com.hdh.txtrpg.entity.InfinitySlash</node>
+    <node x="-16.5" y="66.0">com.hdh.txtrpg.entity.Inventory</node>
+    <node x="-101.0" y="126.0">com.hdh.txtrpg.map.PathFinder</node>
+    <node x="-98.5" y="-14.0">com.hdh.txtrpg.entity.NPC</node>
+    <node x="352.0" y="746.0">com.hdh.txtrpg.entity.ShadowClaw</node>
+    <node x="-98.0" y="806.0">com.hdh.txtrpg.entity.Blitz</node>
+    <node x="53.0" y="626.0">com.hdh.txtrpg.util.DirectionConstant</node>
+    <node x="-36.5" y="446.0">com.hdh.txtrpg.entity.Character</node>
+    <node x="216.0" y="566.0">com.hdh.txtrpg.entity.Player</node>
+    <node x="-101.5" y="266.0">com.hdh.txtrpg.MainGame</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.hdh.txtrpg.entity.Enemy" target="com.hdh.txtrpg.entity.Character" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.hdh.txtrpg.entity.Blitz" target="com.hdh.txtrpg.entity.Skill" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.hdh.txtrpg.map.DefaultMapGenerator" target="com.hdh.txtrpg.map.MapGenerator" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="382.0" y="520.0" />
+      <point x="222.0" y="520.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.hdh.txtrpg.entity.ManaPotion" target="com.hdh.txtrpg.entity.Item" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="422.0" y="360.0" />
+      <point x="322.0" y="360.0" />
+      <point x="322.0" y="320.0" />
+      <point x="362.0" y="320.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.hdh.txtrpg.entity.InfinitySlash" target="com.hdh.txtrpg.entity.Skill" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="322.0" y="720.0" />
+      <point x="-58.0" y="720.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.hdh.txtrpg.entity.DragonBreath" target="com.hdh.txtrpg.entity.Skill" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="122.0" y="720.0" />
+      <point x="-58.0" y="720.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.hdh.txtrpg.entity.EnhanceFruit" target="com.hdh.txtrpg.entity.Item" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="322.0" y="320.0" />
+      <point x="362.0" y="320.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.hdh.txtrpg.entity.Heal" target="com.hdh.txtrpg.entity.Skill" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="222.0" y="720.0" />
+      <point x="-58.0" y="720.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.hdh.txtrpg.entity.Player" target="com.hdh.txtrpg.entity.Character" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="262.0" y="540.0" />
+      <point x="22.0" y="540.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.hdh.txtrpg.entity.Fireball" target="com.hdh.txtrpg.entity.Skill" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="22.0" y="720.0" />
+      <point x="-58.0" y="720.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.hdh.txtrpg.entity.ShadowClaw" target="com.hdh.txtrpg.entity.Skill" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="422.0" y="720.0" />
+      <point x="-58.0" y="720.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.hdh.txtrpg.entity.HealthPotion" target="com.hdh.txtrpg.entity.Item" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="122.0" y="360.0" />
+      <point x="322.0" y="360.0" />
+      <point x="322.0" y="320.0" />
+      <point x="362.0" y="320.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="分层紧凑" zoom="0.8917050691244239" showDependencies="false" x="195.0" y="410.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
